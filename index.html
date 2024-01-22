@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>test</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form d-f f-w jc-s">
+        <label for="title">
+            <p>Book title</p>
+            <input id="title" type="text" name="title" placeholder="2137 Ways to live">
+        </label>
+        <label for="author">
+            <p>Book author</p>
+            <input id="author" type="text" name="author" placeholder="John Paul">
+        </label>
+        <label for="pages">
+            <p>Book pages</p>
+            <input id="pages" type="number" name="pages" placeholder="225">
+        </label>
+        <label class="d-f jc-s ai-c" for="readed">
+            <p>Did you readed ?</p>
+            <input id="readed" type="checkbox" name="readed">
+        </label>
+    </div>
+    <div id="add_book" class="btn d-f ai-c jc-c">Add Book</div>
+    <div id="message" class="message-box d-f ai-c jc-c"></div>
+
+    <div class="library-output d-f ai-c jc-c f-w"></div>
+</body>
+
+<script src="script.js"></script>
+</html>

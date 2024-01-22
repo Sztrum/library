@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Poppins;
+    margin: 0;
+}
+
+.btn{
+    border-radius: 12px;
+    border: 1.5px solid #333;
+    background-color: #fff;
+    height: 35px;
+    width: 120px;
+    cursor: pointer;
+    margin: 10px auto;
+    font-size: 14px;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.btn:hover{
+    background-color: #dedede;
+}
+
+.d-f{
+    display: flex!important;
+}
+
+.f-w{
+    flex-wrap: wrap!important;
+}
+
+.jc-c{
+    justify-content: center!important;
+}
+
+.jc-s{
+    justify-content: start!important;
+}
+
+.ai-c{
+    align-items: center!important;
+}
+
+.form{
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.form label{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.form input{
+    width: 100%;
+    border-radius: 12px;
+    border: 1.5px solid #333;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35px;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+
+.form input[type="checkbox"]{
+    max-width: fit-content;
+    height: 35px;
+    margin: 0 10px;
+}
+
+.library-output{
+    margin-top: 50px;
+}
+
+.table{
+    width: 100%;
+    max-width: 250px;
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+.row{
+    padding: 5px 0;
+    margin-top: 5px;
+    border-bottom: 1px solid #333;
+}
